@@ -8,10 +8,6 @@ package com.porfolio.egf.Security.Dto;
 import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
 
-/**
- *
- * @author Bely
- */
 public class JwtDto {
     private String token;
     private String bearer = "Bearer";

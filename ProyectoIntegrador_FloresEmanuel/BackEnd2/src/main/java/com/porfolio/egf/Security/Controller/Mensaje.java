@@ -5,10 +5,6 @@
  */
 package com.porfolio.egf.Security.Controller;
 
-/**
- *
- * @author Bely
- */
 public class Mensaje {
     private String mensaje;
 

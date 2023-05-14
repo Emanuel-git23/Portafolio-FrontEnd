@@ -7,10 +7,6 @@ package com.porfolio.egf.Security.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-/**
- *
- * @author Bely
- */
 public class LoginUsuario {
    @NotBlank
    private String nombreUsuario;

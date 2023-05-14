@@ -5,10 +5,6 @@
  */
 package com.porfolio.egf.Security.Enums;
 
-/**
- *
- * @author Bely
- */
 public enum RolNombre {
     ROLE_ADMIN,ROLE_USER
 }

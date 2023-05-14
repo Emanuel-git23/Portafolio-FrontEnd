@@ -9,10 +9,6 @@ import java.util.HashSet;
 import java.util.Set;
 import javax.validation.constraints.NotBlank;
 
-/**
- *
- * @author Bely
- */
 public class NuevoUsuario {
    @NotBlank
    private String nombre;
