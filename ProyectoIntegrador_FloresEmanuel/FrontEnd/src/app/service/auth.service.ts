@@ -6,7 +6,7 @@ import { LoginUsuario } from '../model/login-usuario';
 import { JwtDto } from '../model/jwt-dto';
 
 
-const cabecera = {headers: new HttpHeaders({'Content-Type': 'application/json'})};
+//const cabecera = {headers: new HttpHeaders({'Content-Type': 'application/json'})};
 
 @Injectable({
   providedIn: 'root'
