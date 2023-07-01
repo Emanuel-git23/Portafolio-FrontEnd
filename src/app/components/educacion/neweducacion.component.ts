@@ -9,6 +9,7 @@ import { EducacionService } from 'src/app/service/educacion.service';
   styleUrls: ['./neweducacion.component.css']
 })
 export class NeweducacionComponent implements OnInit {
+
   nombreE: string;
   descripcionE: string;
 
@@ -29,5 +30,4 @@ export class NeweducacionComponent implements OnInit {
       }
     )
   }
-
 }

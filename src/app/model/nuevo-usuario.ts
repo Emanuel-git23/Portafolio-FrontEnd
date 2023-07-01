@@ -5,4 +5,3 @@ export class NuevoUsuario {
     password!: string;
     authorities!: string[];
 }
-

@@ -1,26 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
-import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
-import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
-import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { BannerComponent } from './components/banner/banner.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
-import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { HysComponent } from './components/hys/hys.component';
-import { ProyectoComponent } from './components/proyecto/proyecto.component';
-import { FooterComponent } from './components/footer/footer.component' ;
-import { HttpClientModule } from '@angular/common/http';
-import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
-//import { interceptorProvider } from './service/interceptor-service';
+import { LogoApComponent } from './components/logo-ap/logo-ap.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
+import { HomeComponent } from './components/home/home.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FormsModule } from '@angular/forms';
+import { interceptorProvider } from './service/interceptor-service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
-import { NeweducacionComponent} from './components/educacion/neweducacion.component'
+import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { EditSkillComponent } from './components/hys/edit-skill.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
@@ -31,23 +31,23 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
   declarations: [
     AppComponent,
     HeaderComponent,
-    LogoAPComponent,
-    BannerComponent,
     AcercaDeComponent,
-    ExperienciaComponent,
+    BannerComponent,
     EducacionComponent,
-    HysComponent,
-    ProyectoComponent,
+    ExperienciaComponent,
     FooterComponent,
-    HomeComponent,
+    HysComponent,
     LoginComponent,
+    LogoApComponent,
+    ProyectoComponent,
+    HomeComponent,
     NewExperienciaComponent,
     EditExperienciaComponent,
     NeweducacionComponent,
     EditeducacionComponent,
     EditSkillComponent,
     NewSkillComponent,
-    EditAcercaDeComponent,
+    EditAcercaDeComponent
   ],
   imports: [
     BrowserModule,
@@ -55,11 +55,10 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
     BrowserAnimationsModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-    FormsModule,
-    
+    FormsModule
   ],
   providers: [
-    //interceptorProvider
+   interceptorProvider
   ],
   bootstrap: [AppComponent]
 })

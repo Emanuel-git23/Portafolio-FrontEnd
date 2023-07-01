@@ -8,7 +8,8 @@ import { PersonaService } from 'src/app/service/persona.service';
   templateUrl: './edit-acerca-de.component.html',
   styleUrls: ['./edit-acerca-de.component.css']
 })
-export class EditAcercaDeComponent  implements OnInit{
+export class EditAcercaDeComponent implements OnInit {
+
   persona: persona = null;
   constructor(private activatedRouter: ActivatedRoute,private personaService: PersonaService,
     private router: Router){}
@@ -39,4 +40,5 @@ export class EditAcercaDeComponent  implements OnInit{
   uploadImage($event:any){
 
   }
+
 }

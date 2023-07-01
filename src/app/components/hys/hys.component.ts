@@ -9,6 +9,7 @@ import { TokenService } from 'src/app/service/token.service';
   styleUrls: ['./hys.component.css']
 })
 export class HysComponent implements OnInit {
+
   skill: Skill[] = [];
 
   constructor(private skillS: SkillService, private tokenService: TokenService) { }

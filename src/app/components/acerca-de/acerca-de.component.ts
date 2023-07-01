@@ -8,7 +8,8 @@ import { TokenService } from 'src/app/service/token.service';
   templateUrl: './acerca-de.component.html',
   styleUrls: ['./acerca-de.component.css']
 })
-export class AcercaDeComponent implements OnInit{
+export class AcercaDeComponent implements OnInit {
+
   persona: persona = null;
   constructor(public personaService: PersonaService,
     private tokenService: TokenService){ }
@@ -31,4 +32,3 @@ export class AcercaDeComponent implements OnInit{
       )
   }
 }
-

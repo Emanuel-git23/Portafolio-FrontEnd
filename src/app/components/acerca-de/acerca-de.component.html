@@ -1,40 +1,42 @@
+<!--
 <div class="row">
+
     <div class="col-lg-2">
-        <button type="button" class="btn btn-primary" routerLink="/editaracercade/1" *ngIf="isLogged">
-           Editar
+        <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+            Agregar persona
         </button>
     </div>
-    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-    <img src="{{persona.img}}" class="img-fluid" id="fotoperfil">
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+        <img src={{persona.img}} class="img-fluid" id="fotodeperfi">
     </div>
-    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 Nombre" >
         <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
+       <h4>Emunuel Gonzalo Flores</h4>
         <p>Full Stack Developer Jr</p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-2 col-lg-8">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <span>
             <h1>Acerca de Mi</h1>
-            <p>{{persona.descripcion}} </p>
+            <p>{{persona.descripcion}}</p>
+            <p>Soy Tecnico en Redes estoy incursionando en el mundo de la Programacion con nociones basica en PHP,HTML y CSS</p>
         </span>
     </div>
-</div>
-
-<!--<div class="row">
-    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-<img src="../../../assets/PerfilFoto.JPG" class="img-fluid" id="fotoperfil">
-    </div>
-    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
-        <p>Full Stack Developer Jr</p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-2 col-lg-8">
-        <span>
-            <h1>Acerca de Mi</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ut odit sapiente alias at labore asperiores earum possimus porro magnam, laboriosam voluptatem error. Maxime laboriosam culpa est tenetur debitis aliquid?
-
-            </p>
-        </span>
-    </div>
-</div>
+</div> 
 -->
+
+<div class="row">
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+        <img src="../../../assets/PerfilFoto6.jpg" class="img-fluid" id="fotodeperfi"><br>
+        <p class="nombre">Emunuel Gonzalo Flores</p>
+        <p class="programador">Full Stack Developer Jr</p>
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 " >
+       
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <span>
+            <h1>Acerca de Mi</h1>
+            <p>Soy Tecnico en Redes estoy incursionando en el mundo de la Programacion con nociones basica en PHP,HTML y CSS</p>
+        </span>
+    </div>
+</div>

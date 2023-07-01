@@ -4,11 +4,11 @@ export class persona{
     apellido: string;
     descripcion: string;
     img: string;
-
-    constructor(nombre: string,apellido: string, descripcion:string,img:string){
+//GREGO DESCRICION ERRORR
+    constructor(nombre: string,apellido: string,descripcion: string, img: string){
         this.nombre = nombre;
         this.apellido = apellido;
-        this.descripcion = descripcion;
         this.img = img;
-    }  
+        this.descripcion= descripcion;
+    }
 }
